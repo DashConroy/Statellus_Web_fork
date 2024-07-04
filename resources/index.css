@@ -1,0 +1,62 @@
+/* Main Page & global rulesets */
+body {
+	background-color: white;
+	font-family: "Lato", sans-serif;
+}
+
+/* This is the cotainer for the sections menu on the main page */
+#sections-flexbox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	overflow: hidden;
+	justify-content: space-between;
+}
+
+#sections-flexbox > a {
+	text-decoration: none;
+	max-height: 20vh;
+	max-width: 30%;
+	padding: 10px;
+	margin: 10px;
+	flex: none;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#sections-flexbox > a > div > p {
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+
+#sections-flexbox > a > div > img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 100%;
+	max-height: 80%;
+}
+
+#sections-flexbox > a > div {
+	border-radius: 5px;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+}
+
+/* Sections pages (calculus, discrete maths, etc)'s distinct menu */
+#sections-menu {
+	list-style: none;
+}
+
+/* List items */
+#sections-menu > li {
+	font-size: x-large;
+	padding: 5px;
+	margin: 10px 5px;
+	border-radius: 5px; /* rounded borders */
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	text-align: center;
+}
